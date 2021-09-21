@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0" />
+        <title>Game Survey</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 id="title">Game Survey Form</h1>
+        <p id="description">This form is only for surveying frequently selected games</p>
+
+
+        <form id="survey-form">
+            <label for="name" id="name-label" >
+                Name
+                <input type="text" id="name" placeholder="Enter Your Name" required />
+            </label>
+
+            <label for="email" id="email-label">
+                Email
+                <input type="email" id="email" placeholder="Enter Your Email"required />
+            </label>
+
+            <label for="number" id="number-label">
+                Age
+                <input type="number" id="number" placeholder="How Old Are You?" min="12" max="60" />
+                </label>
+
+
+                <label for="dropdown" id="dropdown-label">
+                    which one are you?
+                    <select id="dropdown">
+                        <option>Student</option>
+                        <option>Teacher</option>
+                        </select>
+                    </label>
+
+                    <label for="game" id="game-label">
+                        What Is Your Favorit Game?
+                    </label>
+                    <br /><br />
+                    <label for="game" id="game-label">
+                        <input type="radio" id="game" name="game" value="1" />Mobile Legend
+                    </label>
+
+                    <br /><br />
+                    <label for="game2" id="game-label">
+                        <input type="radio" id="game2"name="game"  value="2"/>Pubg
+                    </label>
+
+                    <br /><br />
+                    <label for="game3" id="game-label">
+                        <input type="radio" id="game3" name="game" value="3"/>Point Blank
+                    </label>
+
+                    <br /><br />
+                    <label for="game4" id="game-label">
+                        <input type="radio" id="game4" name="game" value="4"checked/>Call Of Duty
+                    </label>
+
+                    <br /><br />
+                    <label for="game5" id="game-label">
+                        <input type="radio" id="game5" name="game" value="5"/>Valorant
+                    </label>
+
+                    <br /><br />
+                    <label for="game6" id="game-label">
+                        <input type="radio" id="game6" name="game" value="6"/>Genshin Impact
+                    </label>
+
+                    <br /><br />
+                    <label for="game7" id="game-label">
+                        <input type="radio" id="game7" name="game" value="7"/>CSGO
+                    </label>
+
+                    <br /><br />
+                    <label for="game8" id="game-label">
+                        <input type="radio" id="game8" name="game" value="8"/>Fortnite
+                    </label>
+
+
+                    <br /><br />
+                    <label for="download" id="download-label">
+                        Where you download your game?</label>
+
+                        <br /><br />
+                    <input type="checkbox" value="steam"> Steam <br />
+                    <input type="checkbox" value="app-store"> App Store <br />
+                    <input type="checkbox" value="play-store"> Play Store <br />
+                    <input type="checkbox" value="web"> Web <br />
+
+                    <label for="comments" id="comments-label">
+                        any comments or suggestion?
+                <textarea id="commands" cols="30" rows="10"></textarea>
+            </label>
+
+            <button id="submit" type="submit"> Submit</button>
+        
+          </form>
+
+          <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
